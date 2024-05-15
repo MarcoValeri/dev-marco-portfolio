@@ -1,10 +1,16 @@
+import { Route, Routes } from 'react-router';
+
+import Home from './pages/Home/Home';
+
 import './assets/scss/main.scss';
 
 const App = () => {
     return (
-        <div>
-            <h1>Dev Marco Portfolio</h1>
-        </div>
+        <>
+            <Routes>
+                <Route exact path="/" element={<Home />} />
+            </Routes>
+        </>
     )
 }
 
