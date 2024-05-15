@@ -1,0 +1,40 @@
+.tech-animation {
+    text-align: center;
+    border: 1px solid #d00;
+
+    &__icon-node {
+        animation: move-icon-up 8s infinite;
+    }
+
+    &__icon-react {
+        animation: move-icon-up 8s infinite 1s;
+    }
+
+    &__icon-javascript {
+        animation: move-icon-up 8s infinite 2s;
+    }
+
+    &__icon-php {
+        animation: move-icon-up 8s infinite 3s;
+    }
+
+    &__icon-symfony {
+        animation: move-icon-up 8s infinite 4s;
+    }
+
+    &__icon-mysql {
+        animation: move-icon-up 8s infinite 5s;
+    }
+
+    &__icon-sass {
+        animation: move-icon-up 8s infinite 6s;
+    }
+
+    &__icon-css {
+        animation: move-icon-up 8s infinite 7s;
+    }
+
+    &__icon-html {
+        animation: move-icon-up 8s infinite 8s;
+    }
+}

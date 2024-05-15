@@ -97,12 +97,12 @@
 
 // Icons
 .icon {
-    font-size: 4rem;
+    font-size: 5rem;
     margin: 1rem;
 
-    @include respond(md) {
-        font-size: 3rem;
-    }
+    // @include respond("md") {
+    //     font-size: 5rem;
+    // }
 
     &__javascript {
         color: $yellow-javascript;
