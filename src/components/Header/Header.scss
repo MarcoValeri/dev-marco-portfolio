@@ -10,17 +10,14 @@
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 70%, 0 100%);
     margin-bottom: 5rem;
-    border: 1px solid #00d;
 
     &__container-nav {
         margin-bottom: 5rem;
-        border: 1px solid #d00;
     }
 
     &__container-content {
         text-align: center;
         margin-bottom: 5rem;
-        border: 1px solid #d00;
     }
 
     &__title {

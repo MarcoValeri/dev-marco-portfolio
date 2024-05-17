@@ -1,13 +1,19 @@
 @import "../../assets/scss/abstracts/variables";
 
 .button-animated {
-    width: 10rem;
+    width: 12rem;
     position: relative;
+    font-family: 'Playfair Display', serif;
     background: linear-gradient(240deg, $white 0%, $black 49%, $white 80%, $white 100%);
     padding: .3rem;
     margin: auto;
+    cursor: pointer;
     border-radius: .5rem;
     animation: moving-border 3s linear infinite;
+
+    &__lg {
+        width: 20rem;
+    }
 
     &:hover {
         background: linear-gradient(240deg, $yellow-light 0%, $black 49%, $yellow-light 80%, $yellow-light 100%);
@@ -18,11 +24,11 @@
     }
 
     &__content {
-        font-size: 1.4rem;
+        font-size: 1.5rem;
         text-align: center;
         background: $black-dark;
         color: $white;
-        padding: .6rem;
+        padding: 1rem;
 
         &:hover {
             color: $yellow-light;

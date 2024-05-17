@@ -1,0 +1,33 @@
+.carousel-infinite {
+    width: 100%;
+    height: auto;
+    margin: 10rem auto;
+    overflow: hidden;
+
+    &__wrapper {
+        width: 200rem;
+        height: 10rem;
+        display: flex;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    &__item {
+        width: 15rem;
+        height: 10rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 2rem;
+        animation: slide 15s linear infinite;
+    }
+}
+
+@keyframes slide {
+    0% {
+        transform: translate(0, 0, 0);
+    }
+    100% {
+        transform: translate3d(-60rem, 0, 0); // 200rem are the with of the parent container
+    }
+}

@@ -27,6 +27,7 @@ const ProjectCard = ({projectImage, projectTitle, projectDescription, showReposi
                         <ButtonAnimated
                             url={projectUrl}
                             content={projectButton}
+                            isExternalLink={true}
                         />
                     </div>)}
                 </div>
