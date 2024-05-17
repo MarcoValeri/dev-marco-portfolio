@@ -1,6 +1,7 @@
 import { Route, Routes } from 'react-router';
 
 import Home from './pages/Home/Home';
+import Portfolio from './pages/Portfolio/Portfolio';
 
 import './assets/scss/main.scss';
 
@@ -9,6 +10,7 @@ const App = () => {
         <>
             <Routes>
                 <Route exact path="/" element={<Home />} />
+                <Route path="/portfolio" element={<Portfolio />} />
             </Routes>
         </>
     )
