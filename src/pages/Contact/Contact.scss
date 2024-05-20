@@ -1,0 +1,20 @@
+@import '../../assets/scss/abstracts/mixins';
+
+.contact {
+    width: 80%;
+    font-family: 'Fuzzy Bubbles', cursive;
+    margin: 0 auto 5rem auto;
+
+    @include respond(md) {
+        width: 90%;
+    }
+
+    &__container-email {
+        width: 80%;
+        margin:auto;
+    }
+    
+    &__email {
+        font-weight: 700;
+    }
+}
