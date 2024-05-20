@@ -82,5 +82,25 @@ export const PAGES = [
             "Feel free to reach out through any platforms bellow:",
             "<a className='contact__email link-no-style link-highlight' href='mailto:info@marcovaleri.net'>info@marcovaleri.net</a>"
         ]
+    },
+    {
+        page: "cookie policy",
+        content: [
+            "<strong>Cookie Policy</strong>",
+            "This website uses cookies for essential functions, such as ensuring the website works properly and providing a smooth user experience. However, I do not collect, store, or share any personal data from our visitors.",
+            "<strong>What are cookies?</strong>",
+            "Cookies are small text files that websites store on your computer or device. They are widely used to make websites function correctly and to provide information to website owners.",
+            "<strong>How I use cookies</strong>",
+            "I use cookies to:",
+            "1 - Enable basic website functionality, such as page navigation and access to secure areas",
+            "2 - Remember your preferences, like language or display settings",
+            "I want to assure you that the cookies I use do not track or collect any personally identifiable information about you.",
+            "<strong>Managing cookies:</strong>",
+            "You can control and/or delete cookies as you wish - for details, see aboutcookies.org. You can delete all cookies that are already on your computer and you can set most browsers to prevent them from being placed. If you do this, however, you may have to manually adjust some preferences every time you visit a site andsome services and functionalities may not work.",
+            "<strong>Changes to this policy:</strong>",
+            "I may update this policy from time to time. I will notify you of any changes by posting the new policy on this page.",
+            "<strong>Contact me:</strong>",
+            "If you have any questions about this policy, please contact me at info@marcovaleri.net.",
+        ]
     }
 ]

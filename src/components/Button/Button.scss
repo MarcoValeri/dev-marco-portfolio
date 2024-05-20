@@ -1,0 +1,17 @@
+@import "../../assets/scss/abstracts/variables";
+
+.button {
+    font-size: 1.8rem;
+    color: $yellow;
+    background-color: $black;
+    cursor: pointer;
+    transition: all .2s;
+    border: none;
+    border-radius: 5px;
+
+    &:hover {
+        color: $yellow-javascript;
+        transform: translate(0, -2px);
+        box-shadow: 5px 5px 3px rgb(112, 112, 112);
+    }
+}

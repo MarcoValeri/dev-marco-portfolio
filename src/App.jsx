@@ -7,6 +7,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 import './assets/scss/main.scss';
 import Contact from './pages/Contact/Contact';
+import CookiePolicy from './pages/CookiePolicy/CookiePolicy';
 
 const App = () => {
     return (
@@ -17,6 +18,7 @@ const App = () => {
                     <Route path="/portfolio" element={<Portfolio />} />
                     <Route path="/about" element={<About />} />
                     <Route path="/contact" element={<Contact />} />
+                    <Route path="/cookie-policy" element={<CookiePolicy />} />
                 </Routes>
             </ScrollToTop>
         </>

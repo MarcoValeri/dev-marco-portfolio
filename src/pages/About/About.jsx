@@ -8,7 +8,7 @@ import "./About.scss";
 const About = () => {
     return (
         <>
-            <Header />
+            <Header headline="About me" />
             <div className="about">
                 <div className="about__container-content">
                     <h2 className="about__title h1">About me...</h2>

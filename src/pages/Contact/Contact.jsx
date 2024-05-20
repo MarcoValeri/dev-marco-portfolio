@@ -8,7 +8,7 @@ import './Contact.scss';
 const Contact = () => {
     return (
         <>
-            <Header />
+            <Header headline="Contact me" />
             <div className="contact">
                 {PAGES.map(contentContactPage => contentContactPage.page === "contact" && (
                     contentContactPage.content.map((content, indexContent) => (

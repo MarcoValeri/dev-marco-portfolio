@@ -11,7 +11,7 @@ import './Portfolio.scss';
 const Portfolio = () => {
     return (
         <div>
-            <Header />
+            <Header headline="Portfolio" />
             <TitleElastic title="Portfolio" />
             <div className="portfolio__container-portfolio">
                 {PROJECTS.map((project, index) => {
