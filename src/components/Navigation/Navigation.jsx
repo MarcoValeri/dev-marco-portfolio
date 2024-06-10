@@ -1,8 +1,8 @@
 import { Link, useLocation } from 'react-router-dom';
 
-import './Nav.scss';
+import './Navigation.scss';
 
-const Nav = () => {
+const Navigation = () => {
 
     // Set a variable that determines the current url path
     const location = useLocation();
@@ -35,4 +35,4 @@ const Nav = () => {
     )
 }
 
-export default Nav;
+export default Navigation;

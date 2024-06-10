@@ -1,5 +1,5 @@
 import TechAnimation from "../TechAnimation/TechAnimation";
-import Nav from "../Nav/Nav";
+import Navigation from "../Navigation/Navigation";
 
 import "./Header.scss";
 
@@ -7,7 +7,7 @@ const Header = ({headline}) => {
     return (
         <header className="header">
             <div className="header__container-nav">
-                <Nav />
+                <Navigation />
             </div>
             <div className="header__container-content">
                 <h1 className="header__title h1">Marco Valeri</h1>
