@@ -3,7 +3,7 @@ import './TechAnimation.scss';
 // Import Icons
 import { IconContext } from 'react-icons/lib';
 import { FaNodeJs, FaReact, FaSass, FaCss3Alt, FaHtml5 } from 'react-icons/fa';
-import { SiMysql, SiJavascript } from 'react-icons/si';
+import { SiMysql, SiJavascript, SiTypescript } from 'react-icons/si';
 
 const TechAnimation = () => {
     return (
@@ -13,6 +13,9 @@ const TechAnimation = () => {
             </IconContext.Provider>
             <IconContext.Provider value={{ className: 'icon icon__react tech-animation__icon-react' }}>
                 <FaReact />
+            </IconContext.Provider>
+            <IconContext.Provider value={{ className: 'icon icon__typescript tech-animation__icon-typescript' }}>
+                <SiTypescript />
             </IconContext.Provider>
             <IconContext.Provider value={{ className: 'icon icon__javascript tech-animation__icon-javascript' }}>
                 <SiJavascript />

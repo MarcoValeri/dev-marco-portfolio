@@ -1,7 +1,8 @@
 // Import Icons
 import { IconContext } from 'react-icons/lib';
 import { FaNodeJs, FaReact, FaPhp, FaSymfony, FaSass, FaCss3Alt, FaHtml5, FaWordpressSimple, FaGithub } from 'react-icons/fa';
-import { SiMysql, SiJavascript } from 'react-icons/si';
+import { SiMysql, SiJavascript, SiTypescript } from 'react-icons/si';
+import { FaGolang } from "react-icons/fa6";
 
 // Import style file
 import "./CarouselInfiniteSkills.scss";
@@ -19,38 +20,11 @@ import "./CarouselInfiniteSkills.scss";
     <IconContext.Provider value={{ className: 'icon icon__react' }}>
         <FaReact />
     </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__php' }}>
-        <FaPhp />
+    <IconContext.Provider value={{ className: 'icon icon__typescript' }}>
+        <SiTypescript />
     </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__symfony' }}>
-        <FaSymfony />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__mysql' }}>
-        <SiMysql />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__sass' }}>
-        <FaSass />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__css' }}>
-        <FaCss3Alt />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__html' }}>
-        <FaHtml5 />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__github' }}>
-        <FaGithub />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__wordpress' }}>
-        <FaWordpressSimple />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__javascript' }}>
-        <SiJavascript />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__node' }}>
-        <FaNodeJs />
-    </IconContext.Provider>,
-    <IconContext.Provider value={{ className: 'icon icon__react' }}>
-        <FaReact />
+    <IconContext.Provider value={{ className: 'icon icon__go' }}>
+        <FaGolang />
     </IconContext.Provider>,
     <IconContext.Provider value={{ className: 'icon icon__php' }}>
         <FaPhp />
@@ -84,6 +58,51 @@ import "./CarouselInfiniteSkills.scss";
     </IconContext.Provider>,
     <IconContext.Provider value={{ className: 'icon icon__react' }}>
         <FaReact />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__typescript' }}>
+        <SiTypescript />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__go' }}>
+        <FaGolang />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__php' }}>
+        <FaPhp />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__symfony' }}>
+        <FaSymfony />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__mysql' }}>
+        <SiMysql />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__sass' }}>
+        <FaSass />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__css' }}>
+        <FaCss3Alt />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__html' }}>
+        <FaHtml5 />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__github' }}>
+        <FaGithub />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__wordpress' }}>
+        <FaWordpressSimple />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__javascript' }}>
+        <SiJavascript />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__node' }}>
+        <FaNodeJs />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__react' }}>
+        <FaReact />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__typescript' }}>
+        <SiTypescript />
+    </IconContext.Provider>,
+    <IconContext.Provider value={{ className: 'icon icon__go' }}>
+        <FaGolang />
     </IconContext.Provider>,
     <IconContext.Provider value={{ className: 'icon icon__php' }}>
         <FaPhp />

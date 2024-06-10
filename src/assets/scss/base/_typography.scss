@@ -104,6 +104,10 @@
     //     font-size: 5rem;
     // }
 
+    &__go {
+        color: $blue-go
+    }
+
     &__javascript {
         color: $yellow-javascript;
     }
@@ -114,6 +118,10 @@
 
     &__react {
         color: $blue-react;
+    }
+
+    &__typescript {
+        color: $blue-typescript;
     }
 
     &__php {

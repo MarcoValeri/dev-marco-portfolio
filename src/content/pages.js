@@ -1,8 +1,9 @@
+const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const getDate = new Date();
 const getTheDay = getDate.getDate();
-const getTheMonth = getDate.getMonth() + 1;
+const getTheMonth = getDate.getMonth();
 const getTheYear = getDate.getFullYear();
-const getTodayDate = `${getTheDay}/${getTheMonth}/${getTheYear}`;
+const getTodayDate = `${getTheDay} ${months[getTheMonth]} ${getTheYear}`;
 
 export const PAGES = [
     {
@@ -11,65 +12,64 @@ export const PAGES = [
             [
                 "23 January 1984",
                 [
-                    "I was born in Rome, Italy, on a cold morning of Monday 23rd January 1984.",
-                    "Unlike many other people, I love Monday morning, when a new week starts. It is because I was born on Monday morning and also because I alway worked hard to follow my dream job."
+                    "I was born on a cold Monday morning in Rome, Italy, on January 23, 1984.",
+                    "I've always embraced Monday mornings as a fresh start and a chance to pursue my passions. This enthusiasm for new beginnings has fueled my passion for a career in development, where every project is a chance to learn and grow."
                 ]
             ],
             [
                 "1 March 2015",
                 [
-                    "Because of my passion for SEO and programming languages, in 2015 I decided to move to the best place in the world for working in these fields: London.",
-                    "Moving from Rome to London has completely changed my life because the Capital of England is a place where I met people from all over the world and where I found thousands of opportunities."
+                    "In 2015, my passion for technical SEO and JavaScript led me to London, the heart of the tech industry.",
+                    "The move opened up a world of opportunities, where I collaborated with talented developers from diverse backgrounds, honed my skills on cutting-edge projects, and expanded my professional network."
                 ]
             ],
             [
                 "01 August 2016",
                 [
-                    "I founded an Italian travel magazine that in a few years has reached more than 300k monthly views.",
-                    "You can find it on google by typing <em>ViaggIn</em>.",
-                    "I reached this great result because of my passion for travel, SEO and coding.",
+                    "In 2016, I founded ViaggIn, an Italian travel magazine.",
+                    "In just a few years, I grew ViaggIn to over 300k monthly views by combining my passion for travel with my expertise in SEO and coding. You can explore ViaggIn and discover my passion for travel, SEO, and coding."
                 ]
             ],
             [
                 "01 October 2018",
                 [
-                    "I decided to improve my knowledge by studying Computer Science at the Birkbeck University of London.",
-                    "The Birkbeck University of London has been an incredible place where I met a lot of people that have my same passion: programming languages and new technologies.",
-                    "In those years I studied some important subjects about Computer Science like Object Oriented, Functional Programming, Database, Algorithms, Mobile First, Responsive Design as well as great programming languages like JavaScript, PHP, Python and Java.",
+                    "In 2018, I decided to further my knowledge by studying Computer Science at Birkbeck University of London.",
+                    "Birkbeck provided an incredible environment where I connected with like-minded individuals passionate about programming languages and new technologies. During my studies, I delved into object-oriented and functional programming paradigms, explored database design principles, and honed my skills in JavaScript, Python, and Java."
                 ]
             ],
             [
-                "01 January 2021",
+                "01 July 2021",
                 [
-                    "This is a special date for me because I found my first job as a <em>Junior Full Stack Developer</em> in a great web agency whose name is <a href='https://www.heavypenguin.com/' rel='noreferrer noopener'>Heavy Penguin</a>.",
-                    "At Heavy Penguin I learned how to work in an agile environment as well as I learned how to work in a small but busy team.",
-                    "In this great web agency I worked as a full stack developer for important clients like <a href='https://www.heavypenguin.com/' rel='noreferrer noopener'>Institute Of The Motor Industry</a> and <a href='https://www.cam.ac.uk/' rel='noreferrer noopener'>Cambridge University</a> combining my knowledge of JavaScript, PHP and Python."
+                    "July 1st, 2021, marked a special date in my career as I landed my first role as a Junior Full Stack Developer at <a href='https://www.heavypenguin.com/' target='_blank' rel='noreferrer noopener'>Heavy Penguin</a>, a renowned web agency.",
+                    "At Heavy Penguin, I embraced agile methodologies like Scrum and Kanban, which taught me to prioritize tasks, collaborate effectively, and deliver projects on time. I also honed my skills in JavaScript, PHP, and Python while working on impactful projects for prestigious clients like the Institute of the Motor Industry and Cambridge University."
                 ]
             ],
             [
                 "01 August 2021",
                 [
-                    "It has been a great day: the first August 2021 I got my Foundation Degree in Computer Science at the <a href='https://www.bbk.ac.uk/' rel='noreferrer noopener'>BirkBeck University of London</a>."
+                    "It has been a great day: the first August 2021 I got my Foundation Degree in Computer Science at the <a href='https://www.bbk.ac.uk/' target='_blank' rel='noreferrer noopener'>BirkBeck University of London</a>."
                 ]
             ],
             [
                 "03 January 2022",
                 [
-                    "After a few years as full stack developer, I decided to be focused on just one stack: front-end development.",
-                    "On Monday 3rd January 2022 I started a new incredible path as Junior Front End Developer at <a href='https://sobold.co.uk/' rel='noreferrer noopener'>SoBold</a>, a great web development company based in the centre of London.",
-                    "In this new web agency I have been focused on Front-End development, having the time to understand this stack much better, working for great clients like <a href='https://www.collercapital.com/' rel='noreferrer noopener'>Coller Capital</a>, <a href='https://arenko.group/' rel='noreferrer noopener'>Arenko</a>, <a href='https://www.kapowprimary.com/' rel='noreferrer noopener'>Kapow</a>, <a href='https://commonpurposeclub.co.uk/' rel='noreferrer noopener'>Common purpose</a>, <a href='https://www.jamieandthejam.co.uk/' rel='noreferrer noopener'>Jamie and the Jam</a>, and many more."
+                    "After gaining experience as a full-stack developer, I realized my passion lay in creating engaging user experiences, which led me to specialize in front-end development.",
+                    "On January 3rd, 2022, I embarked on an exciting new chapter as a Junior Front-End Developer at <a href='https://sobold.co.uk/' target='_blank' rel='noreferrer noopener'>SoBold</a>, a leading web development company in central London. This role allowed me to deepen my understanding of front-end technologies and collaborate on high-profile projects for prestigious clients like Coller Capital, Arenko, Kapow, Common Purpose, Jamie and the Jam, and many more."
                 ],
+            ],
+            [
+                "01 September 2023",
+                [
+                    "In September 2023, I joined <a href='https://www.cherrythinking.com/' target='_blank' rel='noreferrer noopener'>Cherry</a> as a React Developer, marking another exciting step in my career.",
+                    "At Cherry, I continue to work on large-scale, complex React applications in the healthcare sector, utilizing my skills in React, JavaScript, Node.js, and TypeScript. This experience has allowed me to further deepen my expertise in front-end development while contributing to meaningful projects that make a real-world impact."
+                ]
             ],
             [
                 `${getTodayDate}`,
                 [
-                    "Today I am proud about what I have done because I found my dream job: be a great Front End developer.",
-                    "This is the reason why I still love every Monday morning.",
-                    "My main goal as a Web Developer is to increase customer satisfaction delivering robust code that can reduce maintenance time and technical debt.",
-                    "At the moment I am working with Node, React and PHP but because of my knowledge I am able to switch between new and old technologies easily.",
-                    "I love the JavaScript environment because it allows creating faster web applications, this is why I am glad of using NodeJS and React together.",
-                    "I like PHP too because a lot of businesses in the world have been written with this programming language that version by version is getting faster, more secure and better - especially from the version 8."
-
+                    "Today, I'm proud to say I've found my dream job as a web developer, and I still love every Monday morning because of it.",
+                    "My main goal is to increase customer satisfaction by delivering robust, maintainable code that reduces technical debt. Currently, I work primarily with Node.js, React, and TypeScript, but I'm a quick learner and can easily adapt to new technologies while maintaining a strong foundation in established ones.",
+                    "I'm particularly passionate about the JavaScript environment, as it enables the creation of faster, more responsive web applications, which is why I enjoy using Node.js and React together."
                 ]
             ]
         ]
