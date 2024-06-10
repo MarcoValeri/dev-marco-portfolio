@@ -77,9 +77,9 @@ export const PAGES = [
     {
         page: "contact",
         content: [
-            "I'm seeking out opportunities to collaborate with companies / agencies / individuals, not just work for them.",
-            "I want to bring my skills as Full Stack Developer and SEO and work together to solve real business-problems.",
-            "Feel free to reach out through any platforms bellow:",
+            "I'm actively seeking collaborative partnerships with companies, agencies, or individuals who are passionate about solving real business problems.",
+            "I bring expertise in React, Node.js, and TypeScript development, along with a proven track record in technical SEO and performance optimization.",
+            "Let's connect and explore how we can leverage my skills to achieve your business goals. You can reach me at:",
             "<a className='contact__email link-no-style link-highlight' href='mailto:info@marcovaleri.net'>info@marcovaleri.net</a>"
         ]
     },

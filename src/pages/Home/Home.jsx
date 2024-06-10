@@ -40,12 +40,9 @@ const Home = () => {
                 <TitleElastic title="Who am I?" />
                 <div className="home__about-preview-content">
                     <h4 className="h4">Abot me</h4>
-                    <p className="body-3">Today I am proud about what I have done because I found my dream job: be a great Front End developer.</p>
-                    <p className="body-3">This is the reason why I still love every Monday morning.</p>
-                    <p className="body-3">My main goal as a Web Developer is to increase customer satisfaction delivering robust code that can reduce maintenance time and technical debt. </p>
-                    <p className="body-3">At the moment I am working with Node, React and PHP but because of my knowledge I am able to switch between new and old technologies easily.</p>
-                    <p className="body-3">I love the JavaScript environment because it allows creating faster web applications, this is why I am glad of using NodeJS and React together.</p>
-                    <p className="about-me__content-last-line body-3">I like PHP too because a lot of businesses in the world have been written with this programming language that version by version is getting faster, more secure and better - especially from the version 8.</p>
+                    <p className="body-3">Today, I'm proud to say I've found my dream job as a web developer, and I still love every Monday morning because of it.</p>
+                    <p className="body-3">My main goal is to increase customer satisfaction by delivering robust, maintainable code that reduces technical debt. Currently, I work primarily with Node.js, React, and TypeScript, but I'm a quick learner and can easily adapt to new technologies while maintaining a strong foundation in established ones.</p>
+                    <p className="about-me__content-last-line body-3">I'm particularly passionate about the JavaScript environment, as it enables the creation of faster, more responsive web applications, which is why I enjoy using Node.js and React together.</p>
                 </div>
                 <div className="home__about-preview-btn">
                     <ButtonAnimated
